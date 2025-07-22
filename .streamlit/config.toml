@@ -1,20 +1,16 @@
 [global]
-# Development mode
-developmentMode = true
+developmentMode = false
 
 [server]
-# Server settings
 port = 8501
-headless = false
+headless = true
 enableCORS = false
 enableXsrfProtection = false
 
 [browser]
-# Browser settings
 gatherUsageStats = false
 
 [theme]
-# Theme settings
 primaryColor = "#FF6B6B"
 backgroundColor = "#FFFFFF"
 secondaryBackgroundColor = "#F0F2F6"
@@ -22,5 +18,4 @@ textColor = "#262730"
 font = "sans serif"
 
 [client]
-# Client settings
 showErrorDetails = true
